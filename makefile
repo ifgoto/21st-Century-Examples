@@ -1,2 +1,3 @@
+CFLAGS=-g -Wall -std=gnu11 -O3
 .c:
-	$(CC) -o $@ $(CFLAGS) $<
+	$(CC) -o ./bin/$@ $(CFLAGS) $<
